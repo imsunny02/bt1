@@ -11,14 +11,11 @@ nyanCat.addEventListener('touchstart', () => {
 });
 
 const messages = [
-  "Chúc chồng yêu 19/11 vui vẻ 💕", "Em thương anh 🤗", "I Love You 🥰", "Chúc anh thành công", "Chúc anh luôn vững chãi", "Mãi bên cạnh em nhé",
-   "❤️ Gửi ngàn lời yêu thương tới anhiu❤️", "Anh hãy luôn vui vẻ và mỉm cười nhé 😊",
-  "Love You 3000 💖","Lê Tấn Thanh" "Em iu anhhhhhh", "Hong được buồn nữa nha", "Có em luôn bên cạnh anh mà",
-  "Anh là một món quà 🎁",
+  "Chúc chồng yêu 19/11 vui vẻ 💕", "Em thương anh 🤗", "I Love You 🥰", "Chúc anh thành công", "❤️ Gửi ngàn lời yêu thương đến anh❤️", 
+  "Love You 3000 💖", "Chúc anh luôn vững chãi", "Mãi bên cạnh em bé nha",
   "Happy Boy's Day 19/11💐", "Love You In Every Universe",
-  "Anh là duy nhất 💞", "Saranghaeyo❤️",
-  "Em nhớ anh nhiều 🌈", "You Are My Everything"
- 
+  "Anh là duy nhất 💞", "Saranghaeyo❤️", "Anh hong được buồn nữa nha", 
+  "Em nhớ anh nhiều 🌈", "You Are My Everything "
 ];
 
 function showRandomMessage(event) {
@@ -45,4 +42,3 @@ function showRandomMessage(event) {
 
   setTimeout(() => msg.remove(), 3000);
 }
-
